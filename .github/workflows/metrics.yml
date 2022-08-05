@@ -1,32 +1,22 @@
 name: Metrics
 on:
   schedule: [{cron: "0 0 * * *"}]
-  push: {branches: ["master"]}
+  workflow_dispatch:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
+    
       - name: Achievements
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.achievements.compact.svg
+          filename: achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_achievements: yes
-          plugin_achievements_only: >-
-            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
-            scripter, packager, explorer, infographile, manager
-          plugin_achievements_threshold: X
-      - name: Full history calendar
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.calendar.full.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_calendar: yes
-          plugin_calendar_limit: 0  
+          
       - name: Repositories and diff history
         uses: lowlighter/metrics@latest
         with:
@@ -35,3 +25,5 @@ jobs:
           base: ""
           plugin_lines: yes
           plugin_lines_sections: repositories, history
+          plugin_lines_repositories_limit: 4
+          plugin_lines_history_limit: 1
