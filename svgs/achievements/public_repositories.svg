@@ -22,7 +22,7 @@
         A 6 6 90 0 0 39 -25.8
         Z
     " stroke="#BDBDBD" fill="#BDBDBD"></path>
-    <path fill-rule="evenodd" transform="translate(0 3) scale(0.5 0.5)" d="
+    <path fill-rule="evenodd" transform="translate(0 2) scale(0.5 0.5)" d="
         M -37.8 -34.6
         A 15.8 15.8 90 0 1 -22.1 -50.4
         H 33.1
@@ -57,7 +57,7 @@
         H -17.3
         A 1.6 1.6 90 0 0 -18.9 26.8
         Z
-    " stroke="#BDBDBD" stroke-width="2"></path>
+    " stroke="#BDBDBD" fill="#BDBDBD"></path>
     <text x="45" y="-2" fill="#BDBDBD" stroke-width="0.1" font-size="1.7em" >Show off</text>
     <text x="50" y="15" fill="#888888" stroke-width="0.1" font-size="0.8em" >66 public repositories</text>
 </svg>
