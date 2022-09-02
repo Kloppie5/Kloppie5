@@ -1,6 +1,7 @@
 Just another programmer
 
 <img src="svgs/angle-brackets.svg">
+<img src="svgs/branch.svg">
 <img src="svgs/fork.svg">
 <img src="svgs/gear.svg">
 <img src="svgs/pull_request.svg">
