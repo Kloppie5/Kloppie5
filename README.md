@@ -1,5 +1,6 @@
 Just another programmer
 
+<img src="svgs/angle-brackets.svg">
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="1200" viewBox="0 0 300 600">
     <rect x="0" y="0" width="100%" height="100%"/>
     <g transform="translate(50 50) scale(1.5 1.5)">
