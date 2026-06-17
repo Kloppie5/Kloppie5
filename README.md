@@ -12,6 +12,9 @@ Tabletop roleplay toolkit
 #### [Cerberus](https://github.com/Kloppie5/Cerberus)
 Network packet analysis tool
 
+#### [Crypt of the Neurodancer](https://github.com/Kloppie5/Crypt-of-the-Neurodancer)
+Crypt of the Necrodancer bot with explainable machine learning and also automatic reverse engineering of the process memory hierarchy instead of manual reverse engineering
+
 #### [Golemancy](https://github.com/Kloppie5/Golemancy)
 Machine Learning applied to Cultist Simulator
 
